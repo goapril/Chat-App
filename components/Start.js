@@ -189,6 +189,10 @@ const Start = ({ navigation }) => {
           <TouchableOpacity
             style={styles.chatStartButton}
             onPress={() => onPressChat(text, backColor)}
+            accessible={true}
+            accessibilityLabel='login'
+            accessibilityHint='logs in to app so you can start chatting'
+            accessibilityRole='button'
           >
             <Text style={styles.chatStartButtonText}>Start Chatting</Text>
           </TouchableOpacity>
