@@ -31,14 +31,21 @@ location.
 * The app’s codebase must contain comments.
 
 # Getting Started
+
 ## Requirements
 * Node.js
 * Expo Command Line Interface (CLI)
+
 `npm install --global expo-cli`
+
 ## Setup
 Clone the repo or download the files, and install dependencies
 
 `npm install`
+## UI lirary
+
+`npm install react-native-gifted-chat --save`
+
 ## Run the App
 To get the app running use:
 
